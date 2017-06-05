@@ -2,8 +2,8 @@ public class Number
 {
 	public static void main(String args[]){
 	Scanner s=new Scanner(System.in);
-	int n = 0;
 	System.out.println("Enter the Number:");
+	int n=s.nextInt();
 	if(n<=0)
 	{
 		if(n==0)
