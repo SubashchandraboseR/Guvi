@@ -3,9 +3,10 @@ public class Factorial {
    public static void main(String []args)
  {
  
-  int num,i,num1;
+  int num,i;
+  int num1=1;
  
-   Scanner sc=new scanner(System.in);
+   Scanner sc=new Scanner(System.in);
    System.out.print("Enter the number=");
   
      num=sc.nextInt();
@@ -14,7 +15,7 @@ public class Factorial {
   
      num1*=i;
     
-   System.out.print("The factorial of" +num" is="+num1);
+   System.out.print("The factorial of given number is="+num1);
   
  }
 
