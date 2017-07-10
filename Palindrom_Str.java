@@ -1,10 +1,11 @@
-import java.util.ArrayList;
+
 import java.util.Scanner;
 
-public class Practies {
+public class Palindrome {
 	public static void main(String arr[]) {
-		Scanner sc=new Scanner(System.in);
 		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a String: ");
 		String s=sc.next();
 		
 		for(int i=0;i<=s.length();i++)
