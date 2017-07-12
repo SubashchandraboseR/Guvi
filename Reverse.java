@@ -5,10 +5,10 @@ import java.util.LinkedHashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-public class Reverse {
+public class Remove {
 	public static void main(String arr[]) {
 		{
-			 	System.out.println("enter the String");
+			 	System.out.println("Enter the String:");
 			 	Scanner scan=new Scanner(System.in);
 			 	String str=scan.nextLine();
 			 	String s1=str.toLowerCase();
@@ -27,7 +27,7 @@ public class Reverse {
 			 	}
 			 	System.out.println(out);
 			 	}else
-			 	System.out.println("invalid");
+			 	System.out.println("Invalid");
 			 	}
 			 
 }
