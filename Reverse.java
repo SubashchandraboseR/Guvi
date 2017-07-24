@@ -1,34 +1,19 @@
-package Multithred;
+import java.util.*;
 
-
-import java.util.LinkedHashSet;
-import java.util.Scanner;
-import java.util.Set;
-
-public class Remove {
-	public static void main(String arr[]) {
-		{
-			 	System.out.println("Enter the String:");
-			 	Scanner scan=new Scanner(System.in);
-			 	String str=scan.nextLine();
-			 	String s1=str.toLowerCase();
-			 	if(s1!=null||s1.trim().equals(" "))
-			 	{
-			 	Set<String>ls=new LinkedHashSet<String>();
-			 	char[]c=s1.toCharArray();
-			 	for(char c1:c)
-			 	{
-			 		String temp=""+c1;
-			 		ls.add(temp);
-			 	}String out="";
-			 	for(String s:ls)
-			 	{
-			 		out=out+s;
-			 	}
-			 	System.out.println(out);
-			 	}else
-			 	System.out.println("Invalid");
-			 	}
-			 
+public class Reverse {
+public static void main(String[] args) {
+	
+	System.out.println("Enter the String:");
+	Scanner sc=new Scanner(System.in);
+	String s=sc.nextLine();
+	
+	String ans="";
+	String rev[]=s.split(" ");
+	
+	for(int i=rev.length-1;i>=0;i--) {
+		ans+=rev[i]+" ";
+	}
+	
+	System.out.println(ans);
 }
 }
