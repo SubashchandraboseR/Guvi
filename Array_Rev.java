@@ -15,10 +15,10 @@ public static void main(String[] args) {
 	}
 	
 	System.out.println("Enter the number:");
-	int d=s.nextInt();
+	int n1=s.nextInt();
 	
 	for(int i=0;i<n;i++){
-		if(a[i]==d){
+		if(a[i]==n1){
 			
 			System.out.print("The reverse array is:");
 			
@@ -26,7 +26,7 @@ public static void main(String[] args) {
 				System.out.print(a[x+1]);
 			}
 			
-				for(i=0;i!=d;i++){
+				for(i=0;i!=n1;i++){
 					System.out.print(a[i]);
 				}
 		}
